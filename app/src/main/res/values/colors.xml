@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#cecece</color>
+    <color name="colorBlack">#0a0a0a</color>
+    <!--夜间模式-->
+    <color name="colorActionBarNight">#222222</color>
+    <color name="colorEdtNight">#2B2B2B</color>
+    <color name="colorTextNight">#cecece</color>
+    <!--日间模式-->
+    <color name="colorActionBarDay">#4444BB</color>
+    <color name="colorEdtDay">#fff</color>
+    <color name="colorTextDay">#0a0a0a</color>
+
+</resources>

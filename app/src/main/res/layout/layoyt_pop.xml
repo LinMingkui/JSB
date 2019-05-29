@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15dp"
+    android:id="@+id/layout_pop"
+    android:background="@drawable/bg_pop_day">
+
+    <TextView
+        android:id="@+id/set_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="夜间模式"/>
+    <include
+        layout="@layout/layout_halving_line"/>
+
+    <TextView
+        android:id="@+id/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="字体大小"/>
+    <include
+        layout="@layout/layout_halving_line"/>
+
+    <TextView
+        android:id="@+id/text_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="导出"/>
+    <include
+        layout="@layout/layout_halving_line"/>
+    <TextView
+        android:id="@+id/text_import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="打开"/>
+
+    <include
+        layout="@layout/layout_halving_line"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="关于"/>
+
+</LinearLayout>
